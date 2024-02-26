@@ -1,8 +1,10 @@
+
 body{
     background: #9cbcb7;
     font-family: 'Oswald';
     color: #6B4945;
-    margin-bottom: 150px;
+    margin-top: 0px;
+    margin-bottom: 80px;
 }
 
 h1 {
@@ -43,6 +45,21 @@ td {
     line-height: 1.2;
 }
 
+footer {
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #E89275;
+    opacity: 80%;
+    color: whitesmoke;
+    height: 2em;
+    position: fixed;
+    font-size: small;
+    width:100%;
+    z-index: 9;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -50,13 +67,14 @@ td {
 .table {
     z-index: 1;
     position: relative;
-    top: 30px;
+    top: 0px;
+    height: 400px;
     width: 1000px;
     border: 3px solid #6B4945;
     background-color: #DBCDA4;
     border-collapse: separate;
-    box-shadow: 10px 10px 1px #6B4945;
-    margin: auto
+    box-shadow: 10px 10px 1px #6b060040;
+    margin: auto;
 }
 
 #rowhead {
